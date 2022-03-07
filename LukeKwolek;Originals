@@ -1,4 +1,43 @@
 {
+"_meta": {
+		"sources": [
+			{
+				"json": "TO",
+				"abbreviation": "TO",
+				"full": "The Originals",
+				"authors": [
+					"Łukasz Kwolek"
+				],
+				"convertedBy": [
+					"Stiger"
+				],
+				"version": "1",
+				"color": "642e4b",
+				"url": "https://darringtonpress.com/taldorei-campaign-setting-reborn/",
+				"dateReleased": "2022-03-07"
+			}
+		],
+		"dateAdded": 1645733614,
+		"dateLastModified": 1645733614,
+		"internalCopies": [
+			"monsterFluff",
+			"item"
+		],
+		"dependencies": {
+			"monster": [
+				"MM"
+			],
+			"monsterFluff": [
+				"MM"
+			],
+			"item": [
+				"DMG"
+			],
+			"itemFluff": [
+				"DMG"
+			]
+		}
+	},
 	"spell": [
 		{
 			"name": "Hydraulic Push",
