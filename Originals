@@ -36,6 +36,13 @@
 			"itemFluff": [
 				"DMG"
 			]
+		},
+		"spellSchools": {
+			"DG":{
+			"full": "Dragomancy",
+			"short": "Drag.",
+			"color": "FF0000"
+			}
 		}
 	},
 	"optionalfeature":
