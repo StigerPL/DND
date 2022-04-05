@@ -2335,8 +2335,171 @@
 				"At 18th level, you have mastered your inner predator. You can use your Hybrid Transformation feature an unlimited number of times, and your hybrid form lasts until you revert to your normal form, fall unconscious, or die.",
 				"You also gain the Blood Curse of the Howl for your Blood Maledict feature. This doesn’t count against your number of blood curses known."
 			]
+		},
+		{
+			"name": "Shadow Magic",
+			"source": "THB",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "THB",
+			"subclassShortName": "Shadow Magic",
+			"page": 1,
+			"level": 1,
+			"entries": [
+				"You are a creature of shadow, for your innate magic comes from the Shadowfell itself. You might trace your lineage to an entity from that place, or perhaps you were exposed to its fell energy and transformed by it.",
+				"The power of shadow magic casts a strange pall over your physical presence. The spark of life that sustains you is muffled, as if it struggles to remain viable against the dark energy that imbues your soul. At your option, you can pick from or roll on the Shadow Sorcerer Quirks table to create a quirk for your character.",
+				{
+					"type": "table",
+					"caption": "Shadow Sorcerer Quirks",
+					"colLabels": [
+						"d6",
+						"Quirk"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"You are always icy cold to the touch."
+						],
+						[
+							"2",
+							"When you are asleep, you don't appear to breathe (though you must still breathe to survive)."
+						],
+						[
+							"3",
+							"You barely bleed, even when badly injured."
+						],
+						[
+							"4",
+							"Your heart beats once per minute. This event sometimes surprises you."
+						],
+						[
+							"5",
+							"You have trouble remembering that living creatures and corpses should be treated differently."
+						],
+						[
+							"6",
+							"You blinked. Once. Last week."
+						]
+					]
+				},
+				"You learn additional spells when you reach certain levels in this class, as shown on the Shadow Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
+				"Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an illusion or a necromancy spell from the sorcerer, warlock, or wizard spell list.",
+				{
+					"type": "table",
+					"caption": "Shadow Spells",
+					"colLabels": [
+						"Sorcerer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9 text- "
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell bane}, {@spell cause fear|xge}"	
+						],
+						[
+							"3rd",
+							"{@spell blindness/deafness}, {@spell darkvision}"
+						],
+						[
+							"5th",
+							"{@spell bestow curse}, {@spell summon shadowspawn|tce}"
+						],
+						[
+							"7th",
+							"{@spell evard's black tentacles}, {@spell shadow of moil|xge}"
+						],
+						[
+							"9th",
+							"{@spell enervation|xge}, {@spell geas}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Eyes of the Dark",
+			"source": "THB",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "THB",
+			"subclassShortName": "Shadow Magic",
+			"page": 1,
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Starting at 1st level, you have darkvision with a range of 120 feet.",
+				"When you reach 3rd level in this class, you learn the darkness spell, which doesn't count against your number of sorcerer spells known. In addition, you can cast it by spending 2 sorcery points or by expending a spell slot. If you cast it with sorcery points, you can see through the darkness created by the spell."
+			]
+		},
+		{
+			"name": "Strength of the Grave",
+			"source": "THB",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "THB",
+			"subclassShortName": "Shadow Magic",
+			"page": 1,
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Starting at 1st level, your existence in a twilight state between life and death makes you difficult to defeat. When damage reduces you to 0 hit points, you can make a Charisma saving throw (DC 5 + the damage taken). On a success, you instead drop to 1 hit point. You can't use this feature if you are reduced to 0 hit points by radiant damage or by a critical hit.",
+				"After the saving throw succeeds, you can't use this feature again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Hound of Ill Omen",
+			"source": "THB",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "THB",
+			"subclassShortName": "Shadow Magic",
+			"page": 1,
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you gain the ability to call forth a howling creature of darkness to harass your foes. As a bonus action, you can spend 3 sorcery points to magically summon a hound of ill omen to target one creature you can see within 120 feet of you. The hound uses the {@creature shadow hound|THB}'s statistics.",
+				"The hound appears in an unoccupied space of your choice within 30 feet of the target. Roll initiative for the hound. On its turn, it can move only toward its target by the most direct route, and it can use its action only to attack its target. The hound can make opportunity attacks, but only against its target. Additionally, while the hound is within 5 feet of the target, the target has disadvantage on saving throws against any spell you cast. The hound disappears if it is reduced to 0 hit points, if its target is reduced to 0 hit points, or after 5 minutes."
+			]
+		},
+		{
+			"name": "Shadow Walk",
+			"source": "THB",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "THB",
+			"subclassShortName": "Shadow Magic",
+			"page": 1,
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action, you can magically teleport up to 120 feet to an unoccupied space you can see that is also in dim light or darkness."
+			]
+		},
+		{
+			"name": "Umbral Form",
+			"source": "THB",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "THB",
+			"subclassShortName": "Shadow Magic",
+			"page": 2,
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level you learn how to manifest your power. As a bonus action you magically transform yourself into a shadowy form. In this form, you have resistance to all damage except force and radiant damage, and you can move through other creatures and objects as if they were difficult terrain. You take 5 force damage if you end your turn inside an object.",
+				"You remain in this form for 1 minute. It ends early if you are {@condition incapacitated}, if you die, or if you dismiss it (no action required). Once you use this bonus action, you can't use it again until you finish a long rest, unless you spend 6 sorcery points to use it again."
+			]
 		}
 	],
+	
 	"subclass": [
 		{
 			"name": "Shadow Magic",
@@ -2612,170 +2775,6 @@
 			"shortName": "Lycan",
 			"className": "Blood Hunter",
 			"classSource": "THB"
-		}
-	],
-	"subclassFeature": [
-		{
-			"name": "Shadow Magic",
-			"source": "THB",
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"subclassSource": "THB",
-			"subclassShortName": "Shadow Magic",
-			"page": 1,
-			"level": 1,
-			"entries": [
-				"You are a creature of shadow, for your innate magic comes from the Shadowfell itself. You might trace your lineage to an entity from that place, or perhaps you were exposed to its fell energy and transformed by it.",
-				"The power of shadow magic casts a strange pall over your physical presence. The spark of life that sustains you is muffled, as if it struggles to remain viable against the dark energy that imbues your soul. At your option, you can pick from or roll on the Shadow Sorcerer Quirks table to create a quirk for your character.",
-				{
-					"type": "table",
-					"caption": "Shadow Sorcerer Quirks",
-					"colLabels": [
-						"d6",
-						"Quirk"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"1",
-							"You are always icy cold to the touch."
-						],
-						[
-							"2",
-							"When you are asleep, you don't appear to breathe (though you must still breathe to survive)."
-						],
-						[
-							"3",
-							"You barely bleed, even when badly injured."
-						],
-						[
-							"4",
-							"Your heart beats once per minute. This event sometimes surprises you."
-						],
-						[
-							"5",
-							"You have trouble remembering that living creatures and corpses should be treated differently."
-						],
-						[
-							"6",
-							"You blinked. Once. Last week."
-						]
-					]
-				},
-				"You learn additional spells when you reach certain levels in this class, as shown on the Shadow Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
-				"Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an illusion or a necromancy spell from the sorcerer, warlock, or wizard spell list.",
-				{
-					"type": "table",
-					"caption": "Shadow Spells",
-					"colLabels": [
-						"Sorcerer Level",
-						"Spell"
-					],
-					"colStyles": [
-						"col-3 text-center",
-						"col-9 text- "
-					],
-					"rows": [
-						[
-							"1st",
-							"{@spell bane}, {@spell cause fear|xge}"	
-						],
-						[
-							"3rd",
-							"{@spell blindness/deafness}, {@spell darkvision}"
-						],
-						[
-							"5th",
-							"{@spell bestow curse}, {@spell summon shadowspawn|tce}"
-						],
-						[
-							"7th",
-							"{@spell evard's black tentacles}, {@spell shadow of moil|xge}"
-						],
-						[
-							"9th",
-							"{@spell enervation|xge}, {@spell geas}"
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Eyes of the Dark",
-			"source": "THB",
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"subclassSource": "THB",
-			"subclassShortName": "Shadow Magic",
-			"page": 1,
-			"level": 1,
-			"header": 1,
-			"entries": [
-				"Starting at 1st level, you have darkvision with a range of 120 feet.",
-				"When you reach 3rd level in this class, you learn the darkness spell, which doesn't count against your number of sorcerer spells known. In addition, you can cast it by spending 2 sorcery points or by expending a spell slot. If you cast it with sorcery points, you can see through the darkness created by the spell."
-			]
-		},
-		{
-			"name": "Strength of the Grave",
-			"source": "THB",
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"subclassSource": "THB",
-			"subclassShortName": "Shadow Magic",
-			"page": 1,
-			"level": 1,
-			"header": 1,
-			"entries": [
-				"Starting at 1st level, your existence in a twilight state between life and death makes you difficult to defeat. When damage reduces you to 0 hit points, you can make a Charisma saving throw (DC 5 + the damage taken). On a success, you instead drop to 1 hit point. You can't use this feature if you are reduced to 0 hit points by radiant damage or by a critical hit.",
-				"After the saving throw succeeds, you can't use this feature again until you finish a long rest."
-			]
-		},
-		{
-			"name": "Hound of Ill Omen",
-			"source": "THB",
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"subclassSource": "THB",
-			"subclassShortName": "Shadow Magic",
-			"page": 1,
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"At 6th level, you gain the ability to call forth a howling creature of darkness to harass your foes. As a bonus action, you can spend 3 sorcery points to magically summon a hound of ill omen to target one creature you can see within 120 feet of you. The hound uses the {@creature shadow hound|THB}'s statistics.",
-				"The hound appears in an unoccupied space of your choice within 30 feet of the target. Roll initiative for the hound. On its turn, it can move only toward its target by the most direct route, and it can use its action only to attack its target. The hound can make opportunity attacks, but only against its target. Additionally, while the hound is within 5 feet of the target, the target has disadvantage on saving throws against any spell you cast. The hound disappears if it is reduced to 0 hit points, if its target is reduced to 0 hit points, or after 5 minutes."
-			]
-		},
-		{
-			"name": "Shadow Walk",
-			"source": "THB",
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"subclassSource": "THB",
-			"subclassShortName": "Shadow Magic",
-			"page": 1,
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"At 14th level, you gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action, you can magically teleport up to 120 feet to an unoccupied space you can see that is also in dim light or darkness."
-			]
-		},
-		{
-			"name": "Umbral Form",
-			"source": "THB",
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"subclassSource": "THB",
-			"subclassShortName": "Shadow Magic",
-			"page": 2,
-			"level": 18,
-			"header": 2,
-			"entries": [
-				"At 18th level you learn how to manifest your power. As a bonus action you magically transform yourself into a shadowy form. In this form, you have resistance to all damage except force and radiant damage, and you can move through other creatures and objects as if they were difficult terrain. You take 5 force damage if you end your turn inside an object.",
-				"You remain in this form for 1 minute. It ends early if you are {@condition incapacitated}, if you die, or if you dismiss it (no action required). Once you use this bonus action, you can't use it again until you finish a long rest, unless you spend 6 sorcery points to use it again."
-			]
 		}
 	],
 	"monster":[
