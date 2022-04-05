@@ -2627,11 +2627,178 @@
 			"entries": [
 				"Starting at 18th level you become a master of melee destruction. If you take the Attack action and hit with two attacks using a heavy weapon, you can make a third attack as part of the same Attack action."
 			]
+		},
+		{
+			"name": "Storm Magic",
+			"source": "TO",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "TO",
+			"subclassShortName": "Storm Magic",
+			"page": 1,
+			"level": 1,
+			"entries": [
+				"Your innate magic comes from the power of elemental air. Many with this power can trace their magic back to a near-death experience caused by the Great Rain, but perhaps you were born during a howling gale so powerful that folk still tell stories of it, or your lineage might include the influence of potent air creatures such as djinn. Whatever the case, the magic of the storm permeates your being.",
+				"Storm sorcerers are invaluable members of a ship's crew. Their magic allows them to exert control over wind and weather in their immediate area. Their abilities also prove useful in repelling attacks by sahuagin, pirates, and other waterborne threats.",
+				
+				"You learn additional spells when you reach certain levels in this class, as shown on the Storm Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
+				"Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an evocation or a transmutation spell from the sorcerer, warlock, or wizard spell list.",
+				{
+					"type": "table",
+					"caption": "Storm Spells",
+					"colLabels": [
+						"Sorcerer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9 text- "
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell catapult|xge}, {@spell thunderwave}"	
+						],
+						[
+							"3rd",
+							"{@spell shatter}, {@spell vortex warp|scc}"
+						],
+						[
+							"5th",
+							"{@spell call lightning}, {@spell thunderstep|xge}"
+						],
+						[
+							"7th",
+							"{@spell storm sphere|xge}, {@spell summon elemental|tce} (air only)"
+						],
+						[
+							"9th",
+							"{@spell control winds|xge}, {@spell destructive wave}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Wind Speaker",
+			"source": "TO",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "TO",
+			"subclassShortName": "Storm Magic",
+			"page": 1,
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"The arcane magic you command is infused with elemental air. You can speak, read, and write {@language Primordial}. Knowing this language allows you to understand and be understood by those who speak its dialects: {@language Aquan}, {@language Auran}, {@language Ignan}, and {@language Terran}."
+			]
+		},
+		{
+			"name": "Tempestuous Magic",
+			"source": "TO",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "TO",
+			"subclassShortName": "Storm Magic",
+			"page": 1,
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Starting at 1st level, you can use a bonus action on your turn to cause whirling gusts of elemental air to briefly surround you, immediately before or after you cast a spell of 1st level or higher. Doing so allows you to fly up to 10 feet without provoking opportunity attacks."
+			]
+		},
+		{
+			"name": "Heart of the Storm",
+			"source": "TO",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "TO",
+			"subclassShortName": "Storm Magic",
+			"page": 1,
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you gain resistance to lightning and thunder damage. In addition, whenever you start casting a spell of 1st level or higher that deals lightning or thunder damage, stormy magic erupts from you. This eruption causes creatures of your choice that you can see within 10 feet of you to take lightning or thunder damage (choose each time this ability activates) equal to half your sorcerer level."
+			]
+		},
+		{
+			"name": "Storm Guide",
+			"source": "TO",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "TO",
+			"subclassShortName": "Storm Magic",
+			"page": 1,
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you gain the ability to subtly control the weather around you.",
+				"If it is raining, you can use an action to cause the rain to stop falling in a 20-foot-radius sphere centered on you. You can end this effect as a bonus action.",
+				"If it is windy, you can use a bonus action each round to choose the direction that the wind blows in a 100-foot-radius sphere centered on you. The wind blows in that direction until the end of your next turn. This feature doesn't alter the speed of the wind."
+			]
+		},
+		{
+			"name": "Storm's Fury",
+			"source": "TO",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "TO",
+			"subclassShortName": "Storm Magic",
+			"page": 2,
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, when you are hit by a melee attack, you can use your reaction to deal lightning damage to the attacker. The damage equals your sorcerer level. The attacker must also make a Strength saving throw against your sorcerer spell save DC. On a failed save, the attacker is pushed in a straight line up to 20 feet away from you."
+			]
+		},
+		{
+			"name": "Wind Soul",
+			"source": "TO",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "TO",
+			"subclassShortName": "Storm Magic",
+			"page": 2,
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level, you gain immunity to lightning and thunder damage.",
+				"You also gain a magical flying speed of 60 feet. As an action, you can reduce your flying speed to 30 feet for 1 hour and choose a number of creatures within 30 feet of you equal to 3 + your Charisma modifier. The chosen creatures gain a magical flying speed of 30 feet for 1 hour. Once you reduce your flying speed in this way, you can't do so again until you finish a short or long rest."
+			]
 		}
 	],
 	
 	"subclass": [
 	{
+			"name": "Storm Magic",
+			"source": "TO",
+			"page": 1,
+			"shortName": "Storm (V)",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSpells": [
+				"catapult|xge",
+				"thunderwave",
+				"shatter",
+				"vortex warp|scc",
+				"call lightning",
+				"thunderstep|xge",
+				"storm sphere|xge",
+				"summon elemental|tce",
+				"control winds|xge",
+				"destructive wave"
+			],
+			"subclassFeatures": [
+				"Storm Magic|Sorcerer||Storm Magic|TO|1",
+				"Wind Speaker|Sorcerer||Storm Magic|TO|1",
+				"Tempestuous Magic|Sorcerer||Storm Magic|TO|1",
+				"Heart of the Storm|Sorcerer||Storm Magic|TO|6",
+				"Storm Guide|Sorcerer||Storm Magic|TO|6",
+				"Storm's Fury|Sorcerer||Storm Magic|TO|14",
+				"Wind Soul|Sorcerer||Storm Magic|TO|18"
+			]
+		},
+		{
 			"name": "Stone Sorcerer",
 			"source": "THB",
 			"page": 1,
