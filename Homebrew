@@ -2339,6 +2339,34 @@
 	],
 	"subclass": [
 		{
+			"name": "Shadow Magic",
+			"source": "THB",
+			"page": 1,
+			"shortName": "Shadow (V)",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSpells": [
+				"bane",
+				"cause fear|xge",
+				"blindness/deafness",
+				"darkvision",
+				"bestow curse",
+				"summon shadowspawn|tce",
+				"evard's black tentacles",
+				"shadow of moil|xge",
+				"enervation|xge",
+				"geas"
+			],
+			"subclassFeatures": [
+				"Shadow Magic|Sorcerer||Shadow Magic|THB|1",
+				"Eyes of the Dark|Sorcerer||Shadow Magic|THB|1",
+				"Strength of the Grave|Sorcerer||Shadow Magic|THB|1",
+				"Hound of Ill Omen|Sorcerer||Shadow Magic|THB|6",
+				"Shadow Walk|Sorcerer||Shadow Magic|THB|14",
+				"Umbral Form|Sorcerer||Shadow Magic|THB|18"
+			]
+		},
+		{
 			"name": "Order of the Ghostslayer",
 			"source": "THB",
 			"subclassFeatures": [
@@ -2584,36 +2612,6 @@
 			"shortName": "Lycan",
 			"className": "Blood Hunter",
 			"classSource": "THB"
-		}
-	],
-	"subclass": [
-		{
-			"name": "Shadow Magic",
-			"source": "THB",
-			"page": 1,
-			"shortName": "Shadow (V)",
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"subclassSpells": [
-				"bane",
-				"cause fear|xge",
-				"blindness/deafness",
-				"darkvision",
-				"bestow curse",
-				"summon shadowspawn|tce",
-				"evard's black tentacles",
-				"shadow of moil|xge",
-				"enervation|xge",
-				"geas"
-			],
-			"subclassFeatures": [
-				"Shadow Magic|Sorcerer||Shadow Magic|THB|1",
-				"Eyes of the Dark|Sorcerer||Shadow Magic|THB|1",
-				"Strength of the Grave|Sorcerer||Shadow Magic|THB|1",
-				"Hound of Ill Omen|Sorcerer||Shadow Magic|THB|6",
-				"Shadow Walk|Sorcerer||Shadow Magic|THB|14",
-				"Umbral Form|Sorcerer||Shadow Magic|THB|18"
-			]
 		}
 	],
 	"subclassFeature": [
