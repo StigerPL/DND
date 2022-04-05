@@ -2497,10 +2497,168 @@
 				"At 18th level you learn how to manifest your power. As a bonus action you magically transform yourself into a shadowy form. In this form, you have resistance to all damage except force and radiant damage, and you can move through other creatures and objects as if they were difficult terrain. You take 5 force damage if you end your turn inside an object.",
 				"You remain in this form for 1 minute. It ends early if you are {@condition incapacitated}, if you die, or if you dismiss it (no action required). Once you use this bonus action, you can't use it again until you finish a long rest, unless you spend 6 sorcery points to use it again."
 			]
+		},
+		{
+			"name": "Stone Magic",
+			"source": "THB",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "THB",
+			"subclassShortName": "Stone Magic",
+			"page": 1,
+			"level": 1,
+			"entries": [
+				"You inherit the will and might that lets you bend stone to your will.",
+				"You learn additional spells when you reach certain levels in this class, as shown on the Stone Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
+				"Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an abjuration or a evocation spell from the sorcerer, warlock, or wizard spell list.",
+				{
+					"type": "table",
+					"caption": "Stone Spells",
+					"colLabels": [
+						"Sorcerer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9 text- "
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell earth tremor|xge}, {@spell thundering smite}"	
+						],
+						[
+							"3rd",
+							"{@spell maximilian's earthen grasp|xge}, {@spell earthbind|xge}"
+						],
+						[
+							"5th",
+							"{@spell erupting earth|xge}, {@spell melf's minute meteorites|xge}"
+						],
+						[
+							"7th",
+							"{@spell staggering smite}, {@spell stoneskin|phb}"
+						],
+						[
+							"9th",
+							"{@spell banishing smite|phb}, {@spell transmute rock|xge}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Stone's Endurance",
+			"source": "THB",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "THB",
+			"subclassShortName": "Stone Magic",
+			"page": 1,
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"At 1st level, your connection to stone gives you extra fortitude. Your hit point maximum increases by 1, and it increases by 1 again whenever you gain a level in this class."
+			]
+		},
+		{
+			"name": "Stone Superiority",
+			"source": "THB",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "THB",
+			"subclassShortName": "Stone Magic",
+			"page": 1,
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"At 1st level you gain proficiency with one martial weapon of your choice that has the heavy property.",
+				"You learn to channel your power into a stone armor and weapon. As a bonus action you transform, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"If you are wielding a weapon that has the heavy property, it transforms becoming a martial weapon: a Stone Greatclub that deals 2d12 bludgeoning damage and has the heavy and two handed property. This weapon is considered magical for the purpose of ignoring resistances. When you make an attack with this weapon, you treat the attack roll as a melee spell attack and add your Charisma modifier to the damage roll.  Once you hit an amount of attacks equal to your proficiency bonus, the weapon breaks and transforms back.",
+						"Your Armor Class becomes 10 + your Charisma modifier + your Constitution modifier.",
+						"You gain advantage on Strength and Constitution checks and saving throws."
+					]
+				},
+				"The transformation lasts for 1 minute, until you end it (no action required) or you fall unconscious. You can transform an amount of times equal to your Charisma modifier and you regain all expended uses when you finish a long rest, unless you use at least 2 sorcery points to do so again. Your Stone Greatclub breaks after an amount of attacks equal to the sorcery points expended (a maximum equal to your proficiency bonus)."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "THB",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "THB",
+			"subclassShortName": "Stone Magic",
+			"page": 1,
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+			]
+		},
+		{
+			"name": "Rock Aegis",
+			"source": "THB",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "THB",
+			"subclassShortName": "Stone Magic",
+			"page": 1,
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level you learn to repurpose the spare energy created when you transform. When you use your Stone Superiority feature, you can choose one creature within 30 feet. That creature gains temporary hit points equal to half your sorcerer level + your Charisma modifier.",
+				"Also you can enter the Stone Superiority state as a reaction to an initiative roll."
+			]
+		},
+		{
+			"name": "Rolling Hammer",
+			"source": "THB",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "THB",
+			"subclassShortName": "Stone Magic",
+			"page": 2,
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Starting at 18th level you become a master of melee destruction. If you take the Attack action and hit with two attacks using a heavy weapon, you can make a third attack as part of the same Attack action."
+			]
 		}
 	],
 	
 	"subclass": [
+	{
+			"name": "Stone Sorcerer",
+			"source": "THB",
+			"page": 1,
+			"shortName": "Stone",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSpells": [
+				"earth tremor|xge",
+				"thundering smite",
+				"maximilian's earthen grasp|xge",
+				"earthbind|xge",
+				"erupting earth|xge",
+				"melf's minute meteorites|xge",
+				"staggering smite",
+				"stoneskin|phb",
+				"banishing smite|phb",
+				"transmute rock|xge"
+			],
+			"subclassFeatures": [
+				"Stone Magic|Sorcerer||Stone Magic|THB|1",
+				"Stone's Endurance|Sorcerer||Stone Magic|THB|1",
+				"Stone Superiority|Sorcerer||Stone Magic|THB|1",
+				"Extra Attack|Sorcerer||Stone Magic|THB|6",
+				"Rock Aegis|Sorcerer||Stone Magic|THB|14",
+				"Rolling Hammer|Sorcerer||Stone Magic|THB|18"
+			]
+		},
 		{
 			"name": "Shadow Magic",
 			"source": "THB",
