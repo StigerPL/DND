@@ -2630,10 +2630,10 @@
 		},
 		{
 			"name": "Storm Magic",
-			"source": "TO",
+			"source": "THB",
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassSource": "TO",
+			"subclassSource": "THB",
 			"subclassShortName": "Storm Magic",
 			"page": 1,
 			"level": 1,
@@ -2681,10 +2681,10 @@
 		},
 		{
 			"name": "Wind Speaker",
-			"source": "TO",
+			"source": "THB",
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassSource": "TO",
+			"subclassSource": "THB",
 			"subclassShortName": "Storm Magic",
 			"page": 1,
 			"level": 1,
@@ -2695,10 +2695,10 @@
 		},
 		{
 			"name": "Tempestuous Magic",
-			"source": "TO",
+			"source": "THB",
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassSource": "TO",
+			"subclassSource": "THB",
 			"subclassShortName": "Storm Magic",
 			"page": 1,
 			"level": 1,
@@ -2709,10 +2709,10 @@
 		},
 		{
 			"name": "Heart of the Storm",
-			"source": "TO",
+			"source": "THB",
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassSource": "TO",
+			"subclassSource": "THB",
 			"subclassShortName": "Storm Magic",
 			"page": 1,
 			"level": 6,
@@ -2723,10 +2723,10 @@
 		},
 		{
 			"name": "Storm Guide",
-			"source": "TO",
+			"source": "THB",
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassSource": "TO",
+			"subclassSource": "THB",
 			"subclassShortName": "Storm Magic",
 			"page": 1,
 			"level": 6,
@@ -2739,10 +2739,10 @@
 		},
 		{
 			"name": "Storm's Fury",
-			"source": "TO",
+			"source": "THB",
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassSource": "TO",
+			"subclassSource": "THB",
 			"subclassShortName": "Storm Magic",
 			"page": 2,
 			"level": 14,
@@ -2753,10 +2753,10 @@
 		},
 		{
 			"name": "Wind Soul",
-			"source": "TO",
+			"source": "THB",
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassSource": "TO",
+			"subclassSource": "THB",
 			"subclassShortName": "Storm Magic",
 			"page": 2,
 			"level": 18,
@@ -2771,7 +2771,7 @@
 	"subclass": [
 	{
 			"name": "Storm Magic",
-			"source": "TO",
+			"source": "THB",
 			"page": 1,
 			"shortName": "Storm (V)",
 			"className": "Sorcerer",
@@ -2789,13 +2789,13 @@
 				"destructive wave"
 			],
 			"subclassFeatures": [
-				"Storm Magic|Sorcerer||Storm Magic|TO|1",
-				"Wind Speaker|Sorcerer||Storm Magic|TO|1",
-				"Tempestuous Magic|Sorcerer||Storm Magic|TO|1",
-				"Heart of the Storm|Sorcerer||Storm Magic|TO|6",
-				"Storm Guide|Sorcerer||Storm Magic|TO|6",
-				"Storm's Fury|Sorcerer||Storm Magic|TO|14",
-				"Wind Soul|Sorcerer||Storm Magic|TO|18"
+				"Storm Magic|Sorcerer||Storm Magic|THB|1",
+				"Wind Speaker|Sorcerer||Storm Magic|THB|1",
+				"Tempestuous Magic|Sorcerer||Storm Magic|THB|1",
+				"Heart of the Storm|Sorcerer||Storm Magic|THB|6",
+				"Storm Guide|Sorcerer||Storm Magic|THB|6",
+				"Storm's Fury|Sorcerer||Storm Magic|THB|14",
+				"Wind Soul|Sorcerer||Storm Magic|THB|18"
 			]
 		},
 		{
