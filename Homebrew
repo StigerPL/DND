@@ -2585,31 +2585,7 @@
 			"className": "Blood Hunter",
 			"classSource": "BH2022"
 		}
-	]
-}
-
-{
-	"_meta": {
-		"sources": [
-			{
-				"json": "TO",
-				"abbreviation": "TO",
-				"full": "The Originals",
-				"authors": [
-					"Stiger"
-				],
-				"convertedBy": [
-					"Stiger"
-				],
-				"version": "1.0",
-				"color": "e16e38",
-				"url": "https://drive.google.com/file/d/1TQSHaJaCgvbUb014u6w5dWHsW6nbfRMY/view",
-				"targetSchema": "1.2"
-			}
-		],
-		"dateAdded": 1602746393,
-		"dateLastModified": 1602746393
-	},
+	],
 	"subclass": [
 		{
 			"name": "Shadow Magic",
