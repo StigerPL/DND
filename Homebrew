@@ -3301,11 +3301,85 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
 						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Zombify",
+			"source": "THB",
+			"page": 1,
+			"level": 1,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a bit of ash"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Choose a corpse of a dead Medium or a smaller creature, or an equivalent amount of bones. A Zombie or a Skeleton rises in its place. This creature has a statblock appropriate to its kind. You have no control over this new creature and it will attack the creature closest to it in sight each turn. Otherwise it stands around mindlessly."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, you can target a creature one size larger for every 2 slot levels above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
 						"source": "PHB"
 					},
 					{
 						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
 						"source": "PHB"
 					}
 				]
